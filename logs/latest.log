@@ -1,0 +1,94 @@
+[10sept.2023 19:55:37.944] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.1.44, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[10sept.2023 19:55:37.955] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 19.0.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[10sept.2023 19:55:38.428] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[10sept.2023 19:55:38.530] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Axel/Documents/Minecraft%20Server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[10sept.2023 19:55:38.902] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Axel\Documents\Minecraft Server\libraries\net\minecraftforge\fmlcore\1.20.1-47.1.44\fmlcore-1.20.1-47.1.44.jar is missing mods.toml file
+[10sept.2023 19:55:38.907] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Axel\Documents\Minecraft Server\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.1.44\javafmllanguage-1.20.1-47.1.44.jar is missing mods.toml file
+[10sept.2023 19:55:38.912] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Axel\Documents\Minecraft Server\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.1.44\lowcodelanguage-1.20.1-47.1.44.jar is missing mods.toml file
+[10sept.2023 19:55:38.919] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Axel\Documents\Minecraft Server\libraries\net\minecraftforge\mclanguage\1.20.1-47.1.44\mclanguage-1.20.1-47.1.44.jar is missing mods.toml file
+[10sept.2023 19:55:39.040] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[10sept.2023 19:55:40.860] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[10sept.2023 19:55:40.876] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[10sept.2023 19:55:51.321] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.44, for MC 1.20.1 with MCP 20230612.114412
+[10sept.2023 19:55:51.327] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.44 Initialized
+[10sept.2023 19:55:53.088] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[10sept.2023 19:55:53.099] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[10sept.2023 19:55:53.100] [modloading-worker-0/INFO] [terrablender/]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
+[10sept.2023 19:55:53.103] [modloading-worker-0/INFO] [terrablender/]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
+[10sept.2023 19:55:53.103] [modloading-worker-0/INFO] [terrablender/]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[10sept.2023 19:55:53.121] [main/INFO] [journeymap/]: Initializing Packet Registries
+[10sept.2023 19:55:53.193] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[10sept.2023 19:55:53.208] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[10sept.2023 19:55:53.214] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[10sept.2023 19:55:53.221] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[10sept.2023 19:55:53.911] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[10sept.2023 19:55:54.624] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.1.44 Target: 47.1.46
+[10sept.2023 19:55:54.624] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[10sept.2023 19:55:54.820] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10sept.2023 19:55:54.966] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.12 Target: null
+[10sept.2023 19:55:54.976] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[10sept.2023 19:55:55.075] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected name at line 288 column 3 path $..8.2.30
+	at com.google.gson.Gson.fromJson(Gson.java:1229) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.1.44.jar%23110!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.1.44.jar%23110!/:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 288 column 3 path $..8.2.30
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:514) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ObjectTypeAdapter.read(ObjectTypeAdapter.java:122) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:186) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[10sept.2023 19:55:55.902] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Axel/Documents/Minecraft%20Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23109!/assets/.mcassetsroot' uses unexpected schema
+[10sept.2023 19:55:55.902] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Axel/Documents/Minecraft%20Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23109!/data/.mcassetsroot' uses unexpected schema
+[10sept.2023 19:55:58.313] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[10sept.2023 19:55:58.458] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2104 advancements
+[10sept.2023 19:55:59.920] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[10sept.2023 19:55:59.920] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[10sept.2023 19:55:59.923] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[10sept.2023 19:55:59.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[10sept.2023 19:56:00.075] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[10sept.2023 19:56:00.105] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[10sept.2023 19:56:00.358] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[10sept.2023 19:56:00.417] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[10sept.2023 19:56:01.005] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[10sept.2023 19:56:01.010] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[10sept.2023 19:56:03.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[10sept.2023 19:56:06.680] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10sept.2023 19:56:06.949] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10sept.2023 19:56:07.250] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10sept.2023 19:56:07.258] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10sept.2023 19:56:07.262] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10sept.2023 19:56:07.469] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10sept.2023 19:56:07.490] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10sept.2023 19:56:07.550] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10sept.2023 19:56:07.793] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10sept.2023 19:56:08.292] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10sept.2023 19:56:08.792] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10sept.2023 19:56:09.291] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[10sept.2023 19:56:09.670] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5881 ms
+[10sept.2023 19:56:09.672] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.316s)! For help, type "help"
+[10sept.2023 19:56:09.704] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[10sept.2023 19:56:53.721] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Sayanel_ is 00c53fc7-2e4b-4781-ab0e-b2f6bba5421c
+[10sept.2023 19:56:55.614] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sayanel_[/[2001:861:3506:2a50:1dee:1d42:504d:a294]:64044] logged in with entity id 10 at (1271.300000011921, -56.0, -1834.7766814183954)
+[10sept.2023 19:56:55.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sayanel_ joined the game
+[10sept.2023 19:57:02.197] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sayanel_ lost connection: Disconnected
+[10sept.2023 19:57:02.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sayanel_ left the game
+[10sept.2023 19:57:06.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[10sept.2023 19:57:06.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[10sept.2023 19:57:06.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[10sept.2023 19:57:06.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10sept.2023 19:57:07.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[10sept.2023 19:57:07.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[10sept.2023 19:57:07.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10sept.2023 19:57:07.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10sept.2023 19:57:07.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10sept.2023 19:57:07.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10sept.2023 19:57:07.099] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
